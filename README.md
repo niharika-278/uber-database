@@ -35,8 +35,3 @@ The database is designed to ensure **referential integrity**, **data consistency
 4. Run `data.sql` to populate sample data  
 5. Run `queries.sql` to test queries, triggers, procedures, and transactions
 
----
-
-## License
-
-MIT License
