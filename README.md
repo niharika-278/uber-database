@@ -1,6 +1,6 @@
 # Uber Database Project
 
-This repository contains a relational database schema for a ride-sharing application similar to Uber. The project includes table definitions, sample data, and SQL queries for common operations. It is implemented in **Oracle SQL**.
+This repository contains a relational database schema for a ride-sharing application similar to Uber. The project includes table definitions, sample data, and SQL queries for common operations. It is implemented in **Oracle SQL and PL/SQL**. It includes table creation, data manipulation, queries, transactions, triggers, and stored procedures.**.
 
 ---
 
@@ -21,15 +21,22 @@ The database is designed to ensure **referential integrity**, **data consistency
 
 ## Files
 
-- `schema.sql` – table creation & relationships  
-- `data.sql` – sample data inserts  
-- `queries.sql` – example queries (ride history, earnings, payments, etc.)  
+- `schema.sql` – Table creation and constraints  
+- `data.sql` – Sample data inserts  
+- `queries.sql` – DDL/DML operations, queries, joins, subqueries, views, triggers, procedures, transactions  
 
 ---
 
-## Setup
+## Setup Instructions
 
-1. Install Oracle DB / Oracle XE  
-2. Run `schema.sql` to create tables  
-3. Run `data.sql` to populate sample data  
-4. Run `queries.sql` to test example queries
+1. Install **Oracle Database** or **Oracle XE**  
+2. Open **SQL Developer** or any Oracle client  
+3. Run `schema.sql` to create tables  
+4. Run `data.sql` to populate sample data  
+5. Run `queries.sql` to test queries, triggers, procedures, and transactions
+
+---
+
+## License
+
+MIT License
